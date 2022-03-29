@@ -1,0 +1,148 @@
+{
+    "seed": 1234,
+    "epochs": 10000,
+    "learning_rate": 0.0002,
+    "betas": [
+        0.8,
+        0.99
+    ],
+    "eps": 1e-09,
+    "batch_size": 32,
+    "fp16_run": true,
+    "lr_decay": 0.999875,
+    "segment_size": 8192,
+    "init_lr_ratio": 1.0,
+    "warmup_epochs": 0,
+    "c_mel": 45,
+    "c_kl": 1.0,
+    "grad_clip": null,
+    "min_seq_length": null,
+    "max_seq_length": 400,
+    "min_spec_length": null,
+    "max_spec_length": null,
+    "min_speaker_utterances": null,
+    "last_epoch": 1,
+    "global_step": 1,
+    "best_loss": null,
+    "audio": {
+        "filter_length": 1024,
+        "hop_length": 256,
+        "win_length": 1024,
+        "mel_channels": 80,
+        "sample_rate": 22050,
+        "sample_bytes": 2,
+        "channels": 1,
+        "mel_fmin": 0,
+        "mel_fmax": null,
+        "ref_level_db": 20,
+        "spec_gain": 1,
+        "signal_norm": true,
+        "min_level_db": -100,
+        "max_norm": 1,
+        "clip_norm": true,
+        "symmetric_norm": true,
+        "do_dynamic_range_compression": true,
+        "convert_db_to_amp": true,
+        "do_trim_silence": false,
+        "trim_silence_db": 40,
+        "trim_margin_sec": 0.01,
+        "trim_keep_sec": 0.25,
+        "scale_mels": false
+    },
+    "model": {
+        "num_symbols": 47,
+        "n_speakers": 18,
+        "inter_channels": 192,
+        "hidden_channels": 192,
+        "filter_channels": 768,
+        "n_heads": 2,
+        "n_layers": 6,
+        "kernel_size": 3,
+        "p_dropout": 0.1,
+        "resblock": "2",
+        "resblock_kernel_sizes": [
+            3,
+            5,
+            7
+        ],
+        "resblock_dilation_sizes": [
+            [
+                1,
+                2
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                12
+            ]
+        ],
+        "upsample_rates": [
+            8,
+            8,
+            4
+        ],
+        "upsample_initial_channel": 256,
+        "upsample_kernel_sizes": [
+            16,
+            16,
+            8
+        ],
+        "n_layers_q": 3,
+        "use_spectral_norm": false,
+        "gin_channels": 512,
+        "use_sdp": true
+    },
+    "phonemes": {
+        "phoneme_separator": "_",
+        "word_separator": "#",
+        "phoneme_to_id": null,
+        "pad": "_",
+        "bos": "^",
+        "eos": "$",
+        "blank": "_",
+        "blank_word": "#",
+        "blank_between": "tokens_and_words",
+        "blank_at_start": true,
+        "blank_at_end": true,
+        "simple_punctuation": true,
+        "punctuation_map": null,
+        "separate": [
+            "\u02c8",
+            "\u02cc"
+        ],
+        "separate_graphemes": false,
+        "separate_tones": false,
+        "tone_before": false,
+        "phoneme_map": null,
+        "auto_bos_eos": true,
+        "minor_break": "\u00b7",
+        "major_break": null,
+        "break_phonemes_into_graphemes": false
+    },
+    "text_aligner": {
+        "aligner": "kaldi_align",
+        "casing": "lower"
+    },
+    "text_language": "en_US",
+    "phonemizer": "gruut",
+    "datasets": [
+        {
+            "name": "cmu_arctic",
+            "metadata_format": "text",
+            "multispeaker": true,
+            "text_language": null,
+            "audio_dir": "/media/12tb/en-us/cmu_arctic",
+            "cache_dir": "/media/cache/cmu_arctic"
+        }
+    ],
+    "inference": {
+        "length_scale": 1.0,
+        "noise_scale": 0.333,
+        "noise_w": 0.333
+    },
+    "version": 1,
+    "git_commit": ""
+}
