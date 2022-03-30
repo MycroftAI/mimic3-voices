@@ -1,0 +1,1 @@
+Sateenkaari on spektrin väreissä esiintyvä ilmakehän optinen ilmiö. Se syntyy, kun valo taittuu pisaran etupinnasta, heijastuu pisaran takapinnasta ja taittuu jälleen pisaran etupinnasta. Koska vesipisara on dispersiivinen, valkoinen valo hajoaa väreiksi muodostaen sateenkaaren.
