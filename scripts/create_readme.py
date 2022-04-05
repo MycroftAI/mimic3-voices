@@ -106,7 +106,7 @@ def main():
                 print("</td>")
 
             print(
-                f"""<td>{min(1, len(speakers))}</td>
+                f"""<td>{max(1, len(speakers))}</td>
     <td>low</td>
     <td><a href="{voice_key}/LICENSE">View</a></td>
 </tr>"""
