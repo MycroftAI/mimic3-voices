@@ -24,7 +24,7 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
 <td><a href="https://github.com/thorstenMueller/deep-learning-german-tts/">View</a></td>
 <td>1</td>
     <td>low</td>
-    <td><a href="de_DE/thorsten_low/LICENSE">View</a></td>
+    <td><a href="voices/de_DE/thorsten_low/LICENSE">View</a></td>
 </tr>
 <tr>
 <td><tt>el_GR/rapunzelina_low</tt></td>
@@ -32,7 +32,7 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
 <td><a href="https://www.kaggle.com/bryanpark/greek-single-speaker-speech-dataset">View</a></td>
 <td>1</td>
     <td>low</td>
-    <td><a href="el_GR/rapunzelina_low/LICENSE">View</a></td>
+    <td><a href="voices/el_GR/rapunzelina_low/LICENSE">View</a></td>
 </tr>
 <tr>
 <td><tt>en_UK/apope_low</tt></td>
@@ -40,7 +40,7 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
 <td><a href="https://popey.me/">View</a></td>
 <td>1</td>
     <td>low</td>
-    <td><a href="en_UK/apope_low/LICENSE">View</a></td>
+    <td><a href="voices/en_UK/apope_low/LICENSE">View</a></td>
 </tr>
 <tr>
 <td><tt>en_US/cmu-arctic_low</tt></td>
@@ -48,7 +48,7 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
 <td><a href="http://www.festvox.org/cmu_arctic/">View</a></td>
 <td>18</td>
     <td>low</td>
-    <td><a href="en_US/cmu-arctic_low/LICENSE">View</a></td>
+    <td><a href="voices/en_US/cmu-arctic_low/LICENSE">View</a></td>
 </tr>
 <tr>
 <td><tt>en_US/ljspeech_low</tt></td>
@@ -56,7 +56,7 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
 <td><a href="https://keithito.com/LJ-Speech-Dataset/">View</a></td>
 <td>1</td>
     <td>low</td>
-    <td><a href="en_US/ljspeech_low/LICENSE">View</a></td>
+    <td><a href="voices/en_US/ljspeech_low/LICENSE">View</a></td>
 </tr>
 <tr>
 <td><tt>en_US/vctk_low</tt></td>
@@ -64,7 +64,7 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
 <td><a href="https://datashare.ed.ac.uk/handle/10283/3443">View</a></td>
 <td>109</td>
     <td>low</td>
-    <td><a href="en_US/vctk_low/LICENSE">View</a></td>
+    <td><a href="voices/en_US/vctk_low/LICENSE">View</a></td>
 </tr>
 <tr>
 <td><tt>es_ES/carlfm_low</tt></td>
@@ -72,7 +72,7 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
 <td><a href="https://github.com/carlfm01/my-speech-datasets">View</a></td>
 <td>1</td>
     <td>low</td>
-    <td><a href="es_ES/carlfm_low/LICENSE">View</a></td>
+    <td><a href="voices/es_ES/carlfm_low/LICENSE">View</a></td>
 </tr>
 <tr>
 <td><tt>fi_FI/harri-tapani-ylilammi_low</tt></td>
@@ -80,7 +80,7 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
 <td><a href="https://www.kaggle.com/bryanpark/finnish-single-speaker-speech-dataset">View</a></td>
 <td>1</td>
     <td>low</td>
-    <td><a href="fi_FI/harri-tapani-ylilammi_low/LICENSE">View</a></td>
+    <td><a href="voices/fi_FI/harri-tapani-ylilammi_low/LICENSE">View</a></td>
 </tr>
 <tr>
 <td><tt>fr_FR/siwis_low</tt></td>
@@ -88,7 +88,7 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
 <td><a href="https://datashare.is.ed.ac.uk/handle/10283/2353">View</a></td>
 <td>1</td>
     <td>low</td>
-    <td><a href="fr_FR/siwis_low/LICENSE">View</a></td>
+    <td><a href="voices/fr_FR/siwis_low/LICENSE">View</a></td>
 </tr>
 <tr>
 <td><tt>hu_HU/diana-majlinger_low</tt></td>
@@ -96,7 +96,7 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
 <td><a href="https://www.kaggle.com/bryanpark/hungarian-single-speaker-speech-dataset">View</a></td>
 <td>1</td>
     <td>low</td>
-    <td><a href="hu_HU/diana-majlinger_low/LICENSE">View</a></td>
+    <td><a href="voices/hu_HU/diana-majlinger_low/LICENSE">View</a></td>
 </tr>
 <tr>
 <td><tt>it_IT/riccardo-fasol_low</tt></td>
@@ -104,7 +104,7 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
 <td><a href="https://www.caito.de/2019/01/03/the-m-ailabs-speech-dataset/">View</a></td>
 <td>1</td>
     <td>low</td>
-    <td><a href="it_IT/riccardo-fasol_low/LICENSE">View</a></td>
+    <td><a href="voices/it_IT/riccardo-fasol_low/LICENSE">View</a></td>
 </tr>
 <tr>
 <td><tt>ko_KO/kss_low</tt></td>
@@ -112,7 +112,7 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
 <td><a href="https://www.kaggle.com/bryanpark/korean-single-speaker-speech-dataset">View</a></td>
 <td>1</td>
     <td>low</td>
-    <td><a href="ko_KO/kss_low/LICENSE">View</a></td>
+    <td><a href="voices/ko_KO/kss_low/LICENSE">View</a></td>
 </tr>
 <tr>
 <td><tt>nl/nathalie_low</tt></td>
@@ -120,7 +120,7 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
 <td><a href="https://github.com/rhasspy/dataset-voice-nathalie">View</a></td>
 <td>1</td>
     <td>low</td>
-    <td><a href="nl/nathalie_low/LICENSE">View</a></td>
+    <td><a href="voices/nl/nathalie_low/LICENSE">View</a></td>
 </tr>
 <tr>
 <td><tt>nl/rdh_low</tt></td>
@@ -128,7 +128,7 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
 <td><a href="https://github.com/r-dh/dutch-vl-tts">View</a></td>
 <td>1</td>
     <td>low</td>
-    <td><a href="nl/rdh_low/LICENSE">View</a></td>
+    <td><a href="voices/nl/rdh_low/LICENSE">View</a></td>
 </tr>
 <tr>
 <td><tt>ru_RU/multi_low</tt></td>
@@ -139,7 +139,7 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
 </td>
 <td>3</td>
     <td>low</td>
-    <td><a href="ru_RU/multi_low/LICENSE">View</a></td>
+    <td><a href="voices/ru_RU/multi_low/LICENSE">View</a></td>
 </tr>
 <tr>
 <td><tt>sw/lanfrica_low</tt></td>
@@ -147,7 +147,7 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
 <td><a href="https://data.mendeley.com/datasets/vbvj6j6pm9/1">View</a></td>
 <td>1</td>
     <td>low</td>
-    <td><a href="sw/lanfrica_low/LICENSE">View</a></td>
+    <td><a href="voices/sw/lanfrica_low/LICENSE">View</a></td>
 </tr>
 <tr>
 <td><tt>uk_UK/m-ailabs_low</tt></td>
@@ -155,7 +155,7 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
 <td><a href="https://www.caito.de/2019/01/03/the-m-ailabs-speech-dataset/">View</a></td>
 <td>6</td>
     <td>low</td>
-    <td><a href="uk_UK/m-ailabs_low/LICENSE">View</a></td>
+    <td><a href="voices/uk_UK/m-ailabs_low/LICENSE">View</a></td>
 </tr>
 <tr>
 <td><tt>vi_VN/vais1000_low</tt></td>
@@ -163,7 +163,7 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
 <td><a href="https://ieee-dataport.org/documents/vais-1000-vietnamese-speech-synthesis-corpus">View</a></td>
 <td>1</td>
     <td>low</td>
-    <td><a href="vi_VN/vais1000_low/LICENSE">View</a></td>
+    <td><a href="voices/vi_VN/vais1000_low/LICENSE">View</a></td>
 </tr>
 </tbody>
 </table>
