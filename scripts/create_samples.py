@@ -142,6 +142,10 @@ _TEST_SENTENCES = {
         повітря), що спостерігаються на тлі хмари, якщо вона розташована проти
         Сонця. Червоний колір ми бачимо з зовнішнього боку первинної веселки, а
         фіолетовий — із внутрішнього.""",
+    "vi": """Cầu vồng hay mống cũng như quang phổ là hiện tượng tán sắc của các
+    ánh sáng từ Mặt Trời khi khúc xạ và phản xạ qua các giọt nước mưa. Ở nhiều
+    nền văn hóa khác nhau, cầu vồng xuất hiện được coi là mang đến điềm lành cho
+    nhân thế."""
 }
 
 _LOGGER = logging.getLogger("get_samples")
