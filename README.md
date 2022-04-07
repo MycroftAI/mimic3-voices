@@ -83,6 +83,14 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
     <td><a href="voices/fi_FI/harri-tapani-ylilammi_low/LICENSE">View</a></td>
 </tr>
 <tr>
+<td><tt>fr_FR/m-ailabs_low</tt></td>
+<td>French</td>
+<td><a href="https://www.caito.de/2019/01/03/the-m-ailabs-speech-dataset/">View</a></td>
+<td>5</td>
+    <td>low</td>
+    <td><a href="voices/fr_FR/m-ailabs_low/LICENSE">View</a></td>
+</tr>
+<tr>
 <td><tt>fr_FR/siwis_low</tt></td>
 <td>French</td>
 <td><a href="https://datashare.is.ed.ac.uk/handle/10283/2353">View</a></td>
@@ -148,6 +156,14 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
 <td>1</td>
     <td>low</td>
     <td><a href="voices/sw/lanfrica_low/LICENSE">View</a></td>
+</tr>
+<tr>
+<td><tt>te_IN/cmu-indic_low</tt></td>
+<td>te_IN</td>
+<td><a href="http://festvox.org/cmu_indic/">View</a></td>
+<td>3</td>
+    <td>low</td>
+    <td><a href="voices/te_IN/cmu-indic_low/LICENSE">View</a></td>
 </tr>
 <tr>
 <td><tt>uk_UK/m-ailabs_low</tt></td>
