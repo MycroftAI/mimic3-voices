@@ -31,6 +31,7 @@ LANG_NAMES = {
     "nl": "Dutch",
     "ru_RU": "Russian",
     "sw": "Kiswahili",
+    "te": "Telugu",
     "uk_UK": "Ukrainian",
     "vi_VN": "Vietnamese",
 }
