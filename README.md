@@ -167,7 +167,7 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
 </tr>
 <tr>
 <td><tt>te_IN/cmu-indic_low</tt></td>
-<td>te_IN</td>
+<td>Telugu</td>
 <td><a href="http://festvox.org/cmu_indic/">View</a></td>
 <td>3</td>
     <td>low</td>
