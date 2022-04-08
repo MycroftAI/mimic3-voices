@@ -99,6 +99,14 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
     <td><a href="voices/fr_FR/siwis_low/LICENSE">View</a></td>
 </tr>
 <tr>
+<td><tt>fr_FR/tom_low</tt></td>
+<td>French</td>
+<td><a href="https://git.bksp.space/Tjiho/baudelaire-sentences">View</a></td>
+<td>1</td>
+    <td>low</td>
+    <td><a href="voices/fr_FR/tom_low/LICENSE">View</a></td>
+</tr>
+<tr>
 <td><tt>hu_HU/diana-majlinger_low</tt></td>
 <td>Hungarian</td>
 <td><a href="https://www.kaggle.com/bryanpark/hungarian-single-speaker-speech-dataset">View</a></td>
