@@ -131,6 +131,22 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
     <td><a href="voices/ko_KO/kss_low/LICENSE">View</a></td>
 </tr>
 <tr>
+<td><tt>nl/bart-de-leeuw_low</tt></td>
+<td>Dutch</td>
+<td><a href="https://www.kaggle.com/bryanpark/dutch-single-speaker-speech-dataset">View</a></td>
+<td>1</td>
+    <td>low</td>
+    <td><a href="voices/nl/bart-de-leeuw_low/LICENSE">View</a></td>
+</tr>
+<tr>
+<td><tt>nl/flemishguy_low</tt></td>
+<td>Dutch</td>
+<td><a href="https://github.com/rhasspy/dataset-voice-flemishguy">View</a></td>
+<td>1</td>
+    <td>low</td>
+    <td><a href="voices/nl/flemishguy_low/LICENSE">View</a></td>
+</tr>
+<tr>
 <td><tt>nl/nathalie_low</tt></td>
 <td>Dutch</td>
 <td><a href="https://github.com/rhasspy/dataset-voice-nathalie">View</a></td>
