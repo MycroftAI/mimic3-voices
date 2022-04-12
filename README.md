@@ -83,6 +83,14 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
     <td><a href="voices/es_ES/carlfm_low/LICENSE">View</a></td>
 </tr>
 <tr>
+<td><tt>es_ES/m-ailabs_low</tt></td>
+<td>Spanish</td>
+<td><a href="https://www.caito.de/2019/01/03/the-m-ailabs-speech-dataset/">View</a></td>
+<td>3</td>
+    <td>low</td>
+    <td><a href="voices/es_ES/m-ailabs_low/LICENSE">View</a></td>
+</tr>
+<tr>
 <td><tt>fi_FI/harri-tapani-ylilammi_low</tt></td>
 <td>Finnish</td>
 <td><a href="https://www.kaggle.com/bryanpark/finnish-single-speaker-speech-dataset">View</a></td>
