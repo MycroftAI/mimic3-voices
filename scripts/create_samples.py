@@ -156,7 +156,11 @@ _TEST_SENTENCES = {
     "vi": """Cầu vồng hay mống cũng như quang phổ là hiện tượng tán sắc của các
     ánh sáng từ Mặt Trời khi khúc xạ và phản xạ qua các giọt nước mưa. Ở nhiều
     nền văn hóa khác nhau, cầu vồng xuất hiện được coi là mang đến điềm lành cho
-    nhân thế."""
+    nhân thế.""",
+    "yo": """E̟nì kò̟ò̟kan ló ní è̟tó̟ láti kó̟ è̟kó̟. Ó kéré tán, è̟kó̟ gbo̟dò̟ jé̟ ò̟fé̟ ní
+    àwo̟n ilé-è̟kó̟ alákò̟ó̟bè̟rè̟. E̟kó̟ ní ilé-è̟kó̟ alákò̟ó̟bè̟rè̟ yìí sì gbo̟dò̟ jé̟ dandan. A
+    gbo̟dò̟ pèsè è̟kó̟ is̟é̟-o̟wó̟, àti ti ìmò̟-è̟ro̟ fún àwo̟n ènìyàn lápapò̟. Àn fàní tó
+    dó̟gba ní ilé-è̟kó̟ gíga gbo̟dò̟ wà ní àró̟wó̟tó gbogbo e̟ni tó bá tó̟ sí."""
 }
 
 _LOGGER = logging.getLogger("get_samples")

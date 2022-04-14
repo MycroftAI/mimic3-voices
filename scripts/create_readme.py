@@ -34,6 +34,7 @@ LANG_NAMES = {
     "te_IN": "Telugu",
     "uk_UK": "Ukrainian",
     "vi_VN": "Vietnamese",
+    "yo": "Yoruba",
 }
 
 

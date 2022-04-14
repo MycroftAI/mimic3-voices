@@ -221,5 +221,13 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
     <td>low</td>
     <td><a href="voices/vi_VN/vais1000_low/LICENSE">View</a></td>
 </tr>
+<tr>
+<td><tt>yo/crowdsourced_low</tt></td>
+<td>Yoruba</td>
+<td><a href="https://www.openslr.org/86">View</a></td>
+<td>20</td>
+    <td>low</td>
+    <td><a href="voices/yo/crowdsourced_low/LICENSE">View</a></td>
+</tr>
 </tbody>
 </table>
