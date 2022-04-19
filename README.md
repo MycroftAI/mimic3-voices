@@ -67,6 +67,14 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
     <td><a href="voices/en_US/ljspeech_low/LICENSE">View</a></td>
 </tr>
 <tr>
+<td><tt>en_US/m-ailabs_low</tt></td>
+<td>English</td>
+<td><a href="https://www.caito.de/2019/01/03/the-m-ailabs-speech-dataset/">View</a></td>
+<td>3</td>
+    <td>low</td>
+    <td><a href="voices/en_US/m-ailabs_low/LICENSE">View</a></td>
+</tr>
+<tr>
 <td><tt>en_US/vctk_low</tt></td>
 <td>English</td>
 <td><a href="https://datashare.ed.ac.uk/handle/10283/3443">View</a></td>
@@ -89,6 +97,14 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
 <td>3</td>
     <td>low</td>
     <td><a href="voices/es_ES/m-ailabs_low/LICENSE">View</a></td>
+</tr>
+<tr>
+<td><tt>fa/haaniye_low</tt></td>
+<td>Persian</td>
+<td><a href="TBD">View</a></td>
+<td>1</td>
+    <td>low</td>
+    <td><a href="voices/fa/haaniye_low/LICENSE">View</a></td>
 </tr>
 <tr>
 <td><tt>fi_FI/harri-tapani-ylilammi_low</tt></td>

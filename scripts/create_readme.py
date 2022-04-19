@@ -23,6 +23,7 @@ LANG_NAMES = {
     "en_US": "English",
     "el_GR": "Greek",
     "es_ES": "Spanish",
+    "fa": "Persian",
     "fi_FI": "Finnish",
     "fr_FR": "French",
     "hu_HU": "Hungarian",

@@ -65,6 +65,12 @@ _TEST_SENTENCES = {
         entre ellos, con el rojo hacia la parte exterior y el violeta hacia el
         interior. A altitud suficiente, por ejemplo cuando se viaja en avión, el
         arcoíris se puede observar en forma de círculo completo.""",
+    "fa": """برای دیگر کاربردها رنگین‌کمان (ابهام‌زدایی) را ببینید.  رنگین‌کمان
+        دوتایی و رنگین‌کمان‌های اضافی در درون کمان اصلی. سایهٔ سر عکاس مرکز دایرهٔ
+        رنگین‌کمان را مشخص می‌کند (نقطهٔ پاد خورشیدی).  رنگین‌کمان پدیده‌ای نوری و
+        قیاسی است که زمانی که خورشید به قطرات نم و رطوبت جو زمین می‌تابد باعث
+        ایجاد طیفی از نور در آسمان می‌شود. این پدیده به شکل یک کمان رنگین در
+        می‌آید.""",
     "fi": """Sateenkaari on spektrin väreissä esiintyvä ilmakehän optinen ilmiö.
         Se syntyy, kun valo taittuu pisaran etupinnasta, heijastuu pisaran
         takapinnasta ja taittuu jälleen pisaran etupinnasta. Koska vesipisara on
@@ -160,7 +166,7 @@ _TEST_SENTENCES = {
     "yo": """E̟nì kò̟ò̟kan ló ní è̟tó̟ láti kó̟ è̟kó̟. Ó kéré tán, è̟kó̟ gbo̟dò̟ jé̟ ò̟fé̟ ní
     àwo̟n ilé-è̟kó̟ alákò̟ó̟bè̟rè̟. E̟kó̟ ní ilé-è̟kó̟ alákò̟ó̟bè̟rè̟ yìí sì gbo̟dò̟ jé̟ dandan. A
     gbo̟dò̟ pèsè è̟kó̟ is̟é̟-o̟wó̟, àti ti ìmò̟-è̟ro̟ fún àwo̟n ènìyàn lápapò̟. Àn fàní tó
-    dó̟gba ní ilé-è̟kó̟ gíga gbo̟dò̟ wà ní àró̟wó̟tó gbogbo e̟ni tó bá tó̟ sí."""
+    dó̟gba ní ilé-è̟kó̟ gíga gbo̟dò̟ wà ní àró̟wó̟tó gbogbo e̟ni tó bá tó̟ sí.""",
 }
 
 _LOGGER = logging.getLogger("get_samples")
