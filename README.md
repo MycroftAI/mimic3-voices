@@ -27,6 +27,14 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
     <td><a href="voices/de_DE/m-ailabs_low/LICENSE">View</a></td>
 </tr>
 <tr>
+<td><tt>de_DE/thorsten-emotion_low</tt></td>
+<td>German</td>
+<td><a href="http://www.openslr.org/110/">View</a></td>
+<td>8</td>
+    <td>low</td>
+    <td><a href="voices/de_DE/thorsten-emotion_low/LICENSE">View</a></td>
+</tr>
+<tr>
 <td><tt>de_DE/thorsten_low</tt></td>
 <td>German</td>
 <td><a href="https://github.com/thorstenMueller/deep-learning-german-tts/">View</a></td>
@@ -193,6 +201,14 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
 <td>1</td>
     <td>low</td>
     <td><a href="voices/nl/nathalie_low/LICENSE">View</a></td>
+</tr>
+<tr>
+<td><tt>nl/pmk_low</tt></td>
+<td>Dutch</td>
+<td><a href="TBD">View</a></td>
+<td>1</td>
+    <td>low</td>
+    <td><a href="voices/nl/pmk_low/LICENSE">View</a></td>
 </tr>
 <tr>
 <td><tt>nl/rdh_low</tt></td>

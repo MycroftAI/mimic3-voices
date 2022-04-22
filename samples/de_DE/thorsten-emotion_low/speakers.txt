@@ -1,0 +1,8 @@
+amused
+angry
+disgusted
+drunk
+neutral
+sleepy
+surprised
+whisper
