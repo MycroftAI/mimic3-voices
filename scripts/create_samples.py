@@ -30,6 +30,12 @@ from urllib.parse import urlencode
 # -----------------------------------------------------------------------------
 
 _TEST_SENTENCES = {
+    "af": """'n Reënboog is 'n boog van gekleurde lig wat ontstaan wanneer die
+        son teen 'n waterdruppel skyn en die wit lig dan deur middel van
+        ligbreking in die volledige kleurspektrum opgebreek word. Die middelpunt
+        van die reënboog staan reg teenoor die son en die boog het 'n straal van
+        ongeveer 42°. Die kleure van die reënboog is, van buite na binne, rooi,
+        oranje, geel, groen, blou, indigo en violet.""",
     "de": """Der Regenbogen ist ein atmosphärisch-optisches Phänomen, das als
         kreisbogenförmiges farbiges Lichtband in einer von der Sonne
         beschienenen Regenwand oder -wolke wahrgenommen wird. Sein radialer

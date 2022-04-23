@@ -19,6 +19,14 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
 </tr>
 <tbody>
 <tr>
+<td><tt>af_ZA/google_nwu</tt></td>
+<td>Afrikaans</td>
+<td><a href="http://www.openslr.org/32/">View</a></td>
+<td>9</td>
+    <td>low</td>
+    <td><a href="voices/af_ZA/google_nwu/LICENSE">View</a></td>
+</tr>
+<tr>
 <td><tt>de_DE/m-ailabs_low</tt></td>
 <td>German</td>
 <td><a href="https://www.caito.de/2019/01/03/the-m-ailabs-speech-dataset/">View</a></td>

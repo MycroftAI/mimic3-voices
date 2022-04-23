@@ -18,6 +18,7 @@ import sys
 from pathlib import Path
 
 LANG_NAMES = {
+    "af_ZA": "Afrikaans",
     "de_DE": "German",
     "en_UK": "English",
     "en_US": "English",
