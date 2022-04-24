@@ -17,27 +17,7 @@
 import sys
 from pathlib import Path
 
-LANG_NAMES = {
-    "af_ZA": "Afrikaans",
-    "de_DE": "German",
-    "en_UK": "English",
-    "en_US": "English",
-    "el_GR": "Greek",
-    "es_ES": "Spanish",
-    "fa": "Persian",
-    "fi_FI": "Finnish",
-    "fr_FR": "French",
-    "hu_HU": "Hungarian",
-    "it_IT": "Italian",
-    "ko_KO": "Korean",
-    "nl": "Dutch",
-    "ru_RU": "Russian",
-    "sw": "Kiswahili",
-    "te_IN": "Telugu",
-    "uk_UK": "Ukrainian",
-    "vi_VN": "Vietnamese",
-    "yo": "Yoruba",
-}
+from shared import LANG_NAMES
 
 
 def main():
@@ -95,10 +75,14 @@ def main():
                         if line:
                             speakers.append(line)
 
+            lang_name = LANG_NAMES.get(lang, lang)
+            if isinstance(lang_name, tuple):
+                lang_name = f"{lang_name[0]} ({lang_name[1]})"
+
             print(
                 f"""<tr>
 <td><tt>{voice_key}</tt></td>
-<td>{LANG_NAMES.get(lang, lang)}</td>"""
+<td>{lang_name}</td>"""
             )
 
             if len(voice_sources) == 1:

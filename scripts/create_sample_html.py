@@ -18,6 +18,8 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
+from shared import LANG_NAMES
+
 
 def main():
     """Generates an HTML page with voice samples (for github.io page)"""
@@ -97,9 +99,20 @@ table tbody tr:nth-of-type(even) {
             voices[language][voice_dir.name] = voice_dir
 
     # Print table of contents
+    lang_texts = {}
+
     print("<ul>")
     for language, lang_voices in voices.items():
-        print("<li>", f'<a href="#{language}">', language, "</a>")
+        lang_name = LANG_NAMES.get(language, language)
+        lang_rest = f"({language})"
+
+        if isinstance(lang_name, tuple):
+            lang_rest = f"({lang_name[1]}, {language})"
+            lang_name = f"{lang_name[0]}"
+
+        lang_texts[language] = (lang_name, lang_rest)
+
+        print("<li>", f'<a href="#{language}">', lang_name, "</a>", lang_rest)
 
         print("<ul>")
         for voice_name in lang_voices:
@@ -119,7 +132,9 @@ table tbody tr:nth-of-type(even) {
 
     # Print samples
     for language, lang_voices in voices.items():
-        print(f'<h2 id="{language}">', language, "</h2>")
+        lang_name, lang_rest = lang_texts[language]
+
+        print(f'<h2 id="{language}">', lang_name, lang_rest, "</h2>")
 
         for voice_name, samples_dir in lang_voices.items():
             sample_text_path = samples_dir / "sample.txt"
@@ -127,6 +142,7 @@ table tbody tr:nth-of-type(even) {
                 text = sample_text_file.read().strip()
 
             print(f'<h3 id="{language}_{voice_name}">', voice_name, "</h3>")
+            print(f'[<a href="https://github.com/MycroftAI/mimic3-voices/tree/master/voices/{language}/{voice_name}/">More Info</a>]')
             print("<p>", text, "</p>")
 
             speakers_path = samples_dir / "speakers.txt"
@@ -147,7 +163,9 @@ table tbody tr:nth-of-type(even) {
             else:
                 # Multi speaker
                 print("<table>")
-                print("<thead><tr><th>Id</th><th>Speaker</th><th>Sample</th></tr></thead>")
+                print(
+                    "<thead><tr><th>Id</th><th>Speaker</th><th>Sample</th></tr></thead>"
+                )
 
                 for speaker_idx, speaker in enumerate(speakers):
                     sample_path = samples_dir / f"sample_{speaker}.wav"
