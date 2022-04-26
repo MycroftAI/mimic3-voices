@@ -33,6 +33,7 @@ LANG_NAMES = {
     "ru_RU": ("Русский", "Russian"),
     "sw": "Kiswahili",
     "te_IN": ("తెలుగు", "Telugu"),
+    "tn_ZA": "Setswana",
     "uk_UK": ("украї́нська мо́ва", "Ukrainian"),
     "vi_VN": ("Tiếng Việt", "Vietnamese"),
     "yo": ("Èdè Yorùbá", "Yoruba"),
