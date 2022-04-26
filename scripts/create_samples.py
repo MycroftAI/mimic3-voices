@@ -112,6 +112,14 @@ _TEST_SENTENCES = {
         waterdruppeltjes aan schijnt en de zon zich achter de waarnemer bevindt.
         Het is een optisch effect dat wordt veroorzaakt door de breking en
         weerspiegeling van licht in de waterdruppels.""",
+    "pl": """Tęcza, zjawisko optyczne i meteorologiczne, występujące w postaci
+        charakterystycznego wielobarwnego łuku powstającego w wyniku
+        rozszczepienia światła widzialnego, zwykle promieniowania słonecznego,
+        załamującego się i odbijającego wewnątrz licznych kropli wody mających
+        kształt zbliżony do kulistego.  Rozszczepienie światła jest wynikiem
+        zjawiska dyspersji, powodującego różnice w kącie załamania światła o
+        różnej długości fali przy przejściu z powietrza do wody i z wody do
+        powietrza.""",
     "pt": """Um arco-íris, também popularmente denominado arco-da-velha, é um
         fenômeno óptico e meteorológico que separa a luz do sol em seu espectro
         contínuo quando o sol brilha sobre gotículas de água suspensas no ar. É

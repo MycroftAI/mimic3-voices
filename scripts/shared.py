@@ -29,6 +29,7 @@ LANG_NAMES = {
     "it_IT": ("Italiano", "Italian"),
     "ko_KO": ("한국어", "Korean"),
     "nl": ("Nederlands", "Dutch"),
+    "pl_PL": ("Polski", "Polish"),
     "ru_RU": ("Русский", "Russian"),
     "sw": "Kiswahili",
     "te_IN": ("తెలుగు", "Telugu"),

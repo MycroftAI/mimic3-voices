@@ -227,6 +227,14 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
     <td><a href="voices/nl/rdh_low/LICENSE">View</a></td>
 </tr>
 <tr>
+<td><tt>pl_PL/m-ailabs_low</tt></td>
+<td>Polski (Polish)</td>
+<td><a href="https://www.caito.de/2019/01/03/the-m-ailabs-speech-dataset/">View</a></td>
+<td>2</td>
+    <td>low</td>
+    <td><a href="voices/pl_PL/m-ailabs_low/LICENSE">View</a></td>
+</tr>
+<tr>
 <td><tt>ru_RU/multi_low</tt></td>
 <td>Русский (Russian)</td>
 <td>
