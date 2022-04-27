@@ -75,6 +75,14 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
     <td><a href="voices/en_US/cmu-arctic_low/LICENSE">View</a></td>
 </tr>
 <tr>
+<td><tt>en_US/hifi-tts_low</tt></td>
+<td>English</td>
+<td><a href="http://www.openslr.org/109/">View</a></td>
+<td>3</td>
+    <td>low</td>
+    <td><a href="voices/en_US/hifi-tts_low/LICENSE">View</a></td>
+</tr>
+<tr>
 <td><tt>en_US/ljspeech_low</tt></td>
 <td>English</td>
 <td><a href="https://keithito.com/LJ-Speech-Dataset/">View</a></td>
