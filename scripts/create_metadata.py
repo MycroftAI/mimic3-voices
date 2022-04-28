@@ -92,10 +92,14 @@ def main():
                         if line:
                             speakers.append(line)
 
+            # Add voice version
+            voice_version = (voice_dir / "VERSION").read_text(encoding="utf-8").strip()
+
             voices[voice_key] = {
                 "files": voice_files,
                 "speakers": speakers,
                 "properties": {},
+                "version": voice_version,
             }
 
     json.dump(voices, sys.stdout, indent=4)

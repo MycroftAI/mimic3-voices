@@ -34,6 +34,7 @@ def main():
 <th>Language</th>
 <th>Dataset</th>
 <th>Speakers</th>
+<th>Version</th>
 <th>Quality</th>
 <th>License</th>
 </tr>
@@ -93,8 +94,11 @@ def main():
                     print(f'<a href="{source}">[{i+1}]</a>')
                 print("</td>")
 
+            voice_version = (voice_dir / "VERSION").read_text(encoding="utf-8").strip()
+
             print(
                 f"""<td>{max(1, len(speakers))}</td>
+    <td>{voice_version}</td>
     <td>low</td>
     <td><a href="voices/{voice_key}/LICENSE">View</a></td>
 </tr>"""
