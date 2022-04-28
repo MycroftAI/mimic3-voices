@@ -69,7 +69,7 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
 <td>English</td>
 <td><a href="https://popey.me/">View</a></td>
 <td>1</td>
-    <td>0.1.0</td>
+    <td>1.0.0</td>
     <td>low</td>
     <td><a href="voices/en_UK/apope_low/LICENSE">View</a></td>
 </tr>
