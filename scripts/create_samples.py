@@ -87,6 +87,12 @@ _TEST_SENTENCES = {
         quand il brille pendant la pluie. C'est un arc de cercle coloré d'un
         dégradé de couleurs continu du rouge, à l'extérieur, au jaune au vert et
         au bleu, jusqu'au violet à l'intérieur.""",
+    "gu": """મેઘધનુષ આકાશમાં ખાસ કરીને ચોમાસા દરમિયાન જોવા મળે છે. વરસાદના વાદળ પર
+        પડતાં સૂર્યના કિરણોને કારણે આકાશમાં અર્ધગોળાકાર તેમ જ સાત રંગોનું મેઘધનુષ રચાય છે.
+        મેઘધનુષમાં સૌથી ઉપર જાંબલી રંગ, પછી નીલો રંગ, પછી વાદળી રંગ, પછી લીલો રંગ, પછી
+        પીળો રંગ, પછી નારંગી રંગ તેમ જ છેલ્લે લાલ રંગ એમ સાત રંગો જોવા મળે છે. ગોળાકાર
+        હોવાથી તે ધનુષ જેવું દેખાય છે અને આ ગોળાકાર આકાર પૃથ્વીના ગોળ હોવાને કારણે સર્જાય
+        છે.""",
     "hu": """A szivárvány olyan optikai jelenség, melyet eső- vagy páracseppek
         okoznak, mikor a fény prizmaszerűen megtörik rajtuk és színeire bomlik,
         kialakul a színképe, más néven spektruma. Az ív külső része vörös, míg a

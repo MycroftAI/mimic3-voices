@@ -25,6 +25,7 @@ LANG_NAMES = {
     "fa": ("فارسی", "Persian"),
     "fi_FI": ("suomi", "Finnish"),
     "fr_FR": ("Français", "French"),
+    "gu_IN": ("ગુજરાતી", "Gujarati"),
     "hu_HU": ("magyar nyelv", "Hungarian"),
     "it_IT": ("Italiano", "Italian"),
     "ko_KO": ("한국어", "Korean"),

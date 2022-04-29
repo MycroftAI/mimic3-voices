@@ -182,6 +182,15 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
     <td><a href="voices/fr_FR/tom_low/LICENSE">View</a></td>
 </tr>
 <tr>
+<td><tt>gu_IN/cmu-indic_low</tt></td>
+<td>ગુજરાતી (Gujarati)</td>
+<td><a href="http://festvox.org/cmu_indic/">View</a></td>
+<td>3</td>
+    <td>0.1.0</td>
+    <td>low</td>
+    <td><a href="voices/gu_IN/cmu-indic_low/LICENSE">View</a></td>
+</tr>
+<tr>
 <td><tt>hu_HU/diana-majlinger_low</tt></td>
 <td>magyar nyelv (Hungarian)</td>
 <td><a href="https://www.kaggle.com/bryanpark/hungarian-single-speaker-speech-dataset">View</a></td>
