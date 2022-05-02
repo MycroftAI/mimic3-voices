@@ -16,6 +16,7 @@
 #
 
 LANG_NAMES = {
+    "bn": ("বাংলা", "Bengali"),
     "af_ZA": "Afrikaans",
     "de_DE": ("Deutsch", "German"),
     "en_UK": "English",

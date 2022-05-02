@@ -29,6 +29,18 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
     <td><a href="voices/af_ZA/google-nwu_low/LICENSE">View</a></td>
 </tr>
 <tr>
+<td><tt>bn/multi_low</tt></td>
+<td>বাংলা (Bengali)</td>
+<td>
+<a href="http://festvox.org/cmu_indic/">[1]</a>
+<a href="http://www.openslr.org/37/">[2]</a>
+</td>
+<td>16</td>
+    <td>0.1.0</td>
+    <td>low</td>
+    <td><a href="voices/bn/multi_low/LICENSE">View</a></td>
+</tr>
+<tr>
 <td><tt>de_DE/m-ailabs_low</tt></td>
 <td>Deutsch (German)</td>
 <td><a href="https://www.caito.de/2019/01/03/the-m-ailabs-speech-dataset/">View</a></td>

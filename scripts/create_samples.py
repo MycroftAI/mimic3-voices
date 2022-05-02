@@ -30,6 +30,10 @@ from urllib.parse import urlencode
 # -----------------------------------------------------------------------------
 
 _TEST_SENTENCES = {
+    "bn": """রংধনু বা রামধনু বা ইন্দ্রধনু হল একটি দৃশ্যমান ধনুকাকৃতি আলোর রেখা যা
+        বায়ুমণ্ডলে অবস্থিত জলকণায় সূর্যালোকের প্রতিফলন এবং প্রতিসরণের ফলে ঘটিত হয়।
+        সাধারণত বৃষ্টির পর আকাশে সূর্যের বিপরীত দিকে রামধনু দেখা যায়। রংধনুতে সাতটি
+        রঙের সমাহার দেখা যায়। দেখতে ধনুকের মতো বাঁকা হওয়ায় এটির নাম রংধনু।""",
     "af": """'n Reënboog is 'n boog van gekleurde lig wat ontstaan wanneer die
         son teen 'n waterdruppel skyn en die wit lig dan deur middel van
         ligbreking in die volledige kleurspektrum opgebreek word. Die middelpunt
