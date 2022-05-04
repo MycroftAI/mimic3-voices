@@ -230,6 +230,15 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
     <td><a href="voices/it_IT/riccardo-fasol_low/LICENSE">View</a></td>
 </tr>
 <tr>
+<td><tt>jv_ID/google-gmu_low</tt></td>
+<td>basa Jawa (Javanese)</td>
+<td><a href="http://www.openslr.org/41/">View</a></td>
+<td>39</td>
+    <td>0.1.0</td>
+    <td>low</td>
+    <td><a href="voices/jv_ID/google-gmu_low/LICENSE">View</a></td>
+</tr>
+<tr>
 <td><tt>ko_KO/kss_low</tt></td>
 <td>한국어 (Korean)</td>
 <td><a href="https://www.kaggle.com/bryanpark/korean-single-speaker-speech-dataset">View</a></td>

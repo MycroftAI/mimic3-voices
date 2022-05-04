@@ -109,6 +109,13 @@ _TEST_SENTENCES = {
         spettro elettromagnetico dell'arcobaleno include lunghezze d'onda sia
         visibili sia non visibili all'occhio umano, queste ultime rilevabili
         attraverso uno spettrometro.""",
+    "jv": """Kluwung, kuwung, wangkawa utawa éndracapa iku pratanda optik lan
+        météorologi wujud cahya manéka warna jinèjèr mlengkung ing langit utawa
+        papan liyané. Ing langit, kluwung katon kaya gandéwa cahya kang pucuké
+        ngarah ing horizon nalika udan riwis-riwis. Kluwung uga bisa katon ing
+        sacedhaké grojogan. Racaké udan anané ing wektu soré, saéngga kluwung
+        katon ing sisih wétan. Déné menawa ésuk, kluwung katon ing kulon,
+        diarani téja.""",
     "ko": """무지개(문화어: 색동다리)는 하늘에 보이는 호(弧)를 이루는 색 띠를
         말한다. 색 경계가 분명하지 않아 각 문화권마다 색의 개수가 다르게
         인식되기도 한다.  대부분 지표로부터 하늘에 걸쳐서 나타나는 반원형 고리

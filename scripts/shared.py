@@ -29,6 +29,7 @@ LANG_NAMES = {
     "gu_IN": ("ગુજરાતી", "Gujarati"),
     "hu_HU": ("magyar nyelv", "Hungarian"),
     "it_IT": ("Italiano", "Italian"),
+    "jv_ID": ("basa Jawa", "Javanese"),
     "ko_KO": ("한국어", "Korean"),
     "nl": ("Nederlands", "Dutch"),
     "pl_PL": ("Polski", "Polish"),
