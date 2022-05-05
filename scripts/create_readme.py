@@ -87,7 +87,7 @@ def main():
             elif phonemizer == "epitran":
                 phonemizer_link = "https://github.com/dmort27/epitran/"
             elif phonemizer == "symbols":
-                phonemizer_link = "voices/{voice_key}/README.md#phonemes"
+                phonemizer_link = f"voices/{voice_key}/README.md#phonemes"
 
             # Update README for voice
             with open(

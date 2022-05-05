@@ -355,7 +355,7 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
 <td><a href="https://www.caito.de/2019/01/03/the-m-ailabs-speech-dataset/">View</a></td>
 <td>6</td>
     <td>0.1.0</td>
-    <td><a href="voices/{voice_key}/README.md#phonemes">symbols</a></td>
+    <td><a href="voices/uk_UK/m-ailabs_low/README.md#phonemes">symbols</a></td>
     <td><a href="voices/uk_UK/m-ailabs_low/LICENSE">View</a></td>
 </tr>
 <tr>
