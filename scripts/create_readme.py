@@ -42,9 +42,7 @@ def main():
 <th>Language</th>
 <th>Dataset</th>
 <th>Speakers</th>
-<th>Version</th>
 <th>Phonemizer</th>
-<th>License</th>
 </tr>
 <tbody>"""
     )
@@ -217,9 +215,7 @@ def main():
 
             print(
                 f"""<td>{max(1, len(speakers))}</td>
-    <td>{voice_version}</td>
     <td><a href="{phonemizer_link}">{phonemizer}</a></td>
-    <td><a href="voices/{voice_key}/LICENSE">View</a></td>
 </tr>"""
             )
 
