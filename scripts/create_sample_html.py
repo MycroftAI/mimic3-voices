@@ -18,7 +18,7 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
-from shared import LANG_NAMES
+from shared import FLAGS, LANG_NAMES
 
 
 def main():
@@ -109,6 +109,10 @@ table tbody tr:nth-of-type(even) {
         if isinstance(lang_name, tuple):
             lang_rest = f"({lang_name[1]}, {language})"
             lang_name = f"{lang_name[0]}"
+
+        lang_flag = FLAGS.get(language, "")
+        if lang_flag:
+            lang_rest = lang_rest[:-1] + f"{lang_flag})"
 
         lang_texts[language] = (lang_name, lang_rest)
 
