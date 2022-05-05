@@ -31,6 +31,7 @@ LANG_NAMES = {
     "it_IT": ("Italiano", "Italian"),
     "jv_ID": ("basa Jawa", "Javanese"),
     "ko_KO": ("한국어", "Korean"),
+    "ne_NP": ("नेपाली", "Nepali"),
     "nl": ("Nederlands", "Dutch"),
     "pl_PL": ("Polski", "Polish"),
     "ru_RU": ("Русский", "Russian"),

@@ -248,6 +248,15 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
     <td><a href="voices/ko_KO/kss_low/LICENSE">View</a></td>
 </tr>
 <tr>
+<td><tt>ne_NP/ne-google_low</tt></td>
+<td>नेपाली (Nepali)</td>
+<td><a href="http://www.openslr.org/43/">View</a></td>
+<td>18</td>
+    <td>0.1.0</td>
+    <td>low</td>
+    <td><a href="voices/ne_NP/ne-google_low/LICENSE">View</a></td>
+</tr>
+<tr>
 <td><tt>nl/bart-de-leeuw_low</tt></td>
 <td>Nederlands (Dutch)</td>
 <td><a href="https://www.kaggle.com/bryanpark/dutch-single-speaker-speech-dataset">View</a></td>

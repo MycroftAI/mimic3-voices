@@ -95,11 +95,22 @@ def main():
             # Add voice version
             voice_version = (voice_dir / "VERSION").read_text(encoding="utf-8").strip()
 
+            # Add voice aliases
+            aliases = []
+            aliases_path = voice_dir / "ALIASES"
+            if aliases_path.is_file():
+                with open(aliases_path, "r", encoding="utf-8") as aliases_file:
+                    for line in aliases_file:
+                        line = line.strip()
+                        if line:
+                            aliases.append(line)
+
             voices[voice_key] = {
                 "files": voice_files,
                 "speakers": speakers,
                 "properties": {},
                 "version": voice_version,
+                "aliases": aliases,
             }
 
     json.dump(voices, sys.stdout, indent=4)
