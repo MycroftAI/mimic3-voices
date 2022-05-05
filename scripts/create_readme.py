@@ -16,9 +16,15 @@
 #
 import json
 import sys
+import typing
 from pathlib import Path
 
+import gruut_ipa
+
 from shared import LANG_NAMES
+
+_DIR = Path(__file__).parent
+_WAV_DIR = _DIR.parent / "phonemes"
 
 
 def main():
@@ -66,6 +72,22 @@ def main():
             )
 
             assert voice_sources, voice_key
+
+            # Phonemizer
+            with open(voice_dir / "config.json", "r", encoding="utf-8") as config_file:
+                voice_config = json.load(config_file)
+
+            phonemizer = voice_config.get("phonemizer", "")
+            phonemizer_link = "#"
+
+            if phonemizer == "gruut":
+                phonemizer_link = "https://github.com/rhasspy/gruut/"
+            elif phonemizer == "espeak":
+                phonemizer_link = "https://github.com/espeak-ng/espeak-ng/"
+            elif phonemizer == "epitran":
+                phonemizer_link = "https://github.com/dmort27/epitran/"
+            elif phonemizer == "symbols":
+                phonemizer_link = "voices/{voice_key}/README.md#phonemes"
 
             # Update README for voice
             with open(
@@ -119,6 +141,37 @@ def main():
                             description = "elongation"
                         elif phoneme == "·":
                             description = "silence"
+                        else:
+                            if phonemizer == "symbols":
+                                description = phoneme
+                            else:
+                                # Assume IPA
+                                ipa_phoneme = gruut_ipa.Phoneme(phoneme)
+                                audio_path = get_phoneme_audio_path(ipa_phoneme)
+
+                                if ipa_phoneme.vowel:
+                                    v = ipa_phoneme.vowel
+                                    roundness = "rounded" if v.rounded else "unrounded"
+                                    description = f"vowel {v.height.value} {v.placement.value} {roundness}"
+                                elif ipa_phoneme.consonant:
+                                    c = ipa_phoneme.consonant
+                                    voiceness = "voiced" if c.voiced else "unvoiced"
+                                    description = f"consonant {c.type.value} {c.place.value} {voiceness}"
+                                elif ipa_phoneme.dipthong:
+                                    description = "dipthong"
+                                elif ipa_phoneme.schwa:
+                                    r_coloured = (
+                                        " r-coloured"
+                                        if ipa_phoneme.schwa.r_coloured
+                                        else ""
+                                    )
+                                    description = f"schwa{r_coloured}"
+
+                                if audio_path:
+                                    if description:
+                                        description += "<br />"
+
+                                    description += f'<audio controls preload="none" src="{audio_path}"></audio>'
 
                         print("<tr>", file=readme_out_file)
                         print("<td>", phoneme_num, "</td>", file=readme_out_file)
@@ -127,22 +180,6 @@ def main():
                         print("</tr>", file=readme_out_file)
 
                 print("</table>", file=readme_out_file)
-
-            # Phonemizer
-            with open(voice_dir / "config.json", "r", encoding="utf-8") as config_file:
-                voice_config = json.load(config_file)
-
-            phonemizer = voice_config.get("phonemizer", "")
-            phonemizer_link = "#"
-
-            if phonemizer == "gruut":
-                phonemizer_link = "https://github.com/rhasspy/gruut/"
-            elif phonemizer == "espeak":
-                phonemizer_link = "https://github.com/espeak-ng/espeak-ng/"
-            elif phonemizer == "epitran":
-                phonemizer_link = "https://github.com/dmort27/epitran/"
-            elif phonemizer == "symbols":
-                phonemizer_link = "voices/{voice_key}/README.md#phonemes"
 
             # Load speaker names (for multi-speaker voices)
             speakers = []
@@ -186,6 +223,41 @@ def main():
         """</tbody>
 </table>"""
     )
+
+
+def get_phoneme_audio_path(phoneme: gruut_ipa.Phoneme) -> typing.Optional[str]:
+    # Try to guess WAV file name for phoneme
+    # Files from https://www.ipachart.com/
+
+    wav_path: typing.Optional[Path] = None
+    if phoneme.vowel:
+        height_str = phoneme.vowel.height.value
+        placement_str = phoneme.vowel.placement.value
+        rounded_str = "rounded" if phoneme.vowel.rounded else "unrounded"
+        wav_path = _WAV_DIR / f"{height_str}_{placement_str}_{rounded_str}_vowel.wav"
+    elif phoneme.consonant:
+        voiced_str = "voiced" if phoneme.consonant.voiced else "voiceless"
+        place_str = phoneme.consonant.place.value.replace("-", "")
+        type_str = phoneme.consonant.type.value.replace("-", "_")
+        wav_path = _WAV_DIR / f"{voiced_str}_{place_str}_{type_str}.wav"
+        if not wav_path.is_file():
+            # Try without voicing
+            wav_path = _WAV_DIR / f"{place_str}_{type_str}.wav"
+    elif phoneme.schwa:
+        if phoneme.schwa.r_coloured:
+            # Close enough to "r" (er in corn[er])
+            wav_path = _WAV_DIR / "alveolar_approximant.wav"
+        else:
+            # ə
+            wav_path = _WAV_DIR / "mid-central_vowel.wav"
+
+    phoneme_dict = {"example": phoneme.example}
+
+    if wav_path and wav_path.is_file():
+        # Augment with relative URL to WAV file
+        return f"phonemes/{wav_path.name}"
+
+    return None
 
 
 if __name__ == "__main__":
