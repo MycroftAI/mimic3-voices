@@ -14,6 +14,7 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
+import json
 import sys
 from pathlib import Path
 
@@ -35,7 +36,7 @@ def main():
 <th>Dataset</th>
 <th>Speakers</th>
 <th>Version</th>
-<th>Quality</th>
+<th>Phonemizer</th>
 <th>License</th>
 </tr>
 <tbody>"""
@@ -65,6 +66,83 @@ def main():
             )
 
             assert voice_sources, voice_key
+
+            # Update README for voice
+            with open(
+                voice_dir / "README.md.in", "r", encoding="utf-8"
+            ) as readme_in_file, open(
+                voice_dir / "README.md", "w", encoding="utf-8"
+            ) as readme_out_file:
+                # Copy contents
+                for line in readme_in_file:
+                    line = line.strip()
+                    print(line, file=readme_out_file)
+
+                # Add phonemes
+                print("", file=readme_out_file)
+                print("", file=readme_out_file)
+                print("## Phonemes", file=readme_out_file)
+                print("", file=readme_out_file)
+
+                print(
+                    "<table><thead><th>&nbsp;</th><th>Phoneme</th><th>Description</th></thead>",
+                    file=readme_out_file,
+                )
+                with open(
+                    voice_dir / "phonemes.txt", "r", encoding="utf-8"
+                ) as phonemes_file:
+                    for line in phonemes_file:
+                        line = line.strip("\r\n")
+                        if not line:
+                            continue
+
+                        phoneme_num, phoneme = line.split(maxsplit=1)
+                        description = ""
+
+                        if phoneme_num == "0":
+                            description = "padding"
+                        elif phoneme == "^":
+                            description = "start utterance"
+                        elif phoneme == "$":
+                            description = "end utterance"
+                        elif phoneme in {"|", ","}:
+                            description = "short pause (minor break)"
+                        elif phoneme in {"‖", "."}:
+                            description = "long pause (major break)"
+                        elif phoneme in {"#", " "}:
+                            description = "word break"
+                        elif phoneme == "ˈ":
+                            description = "primary stress"
+                        elif phoneme == "ˌ":
+                            description = "secondary stress"
+                        elif phoneme == "ː":
+                            description = "elongation"
+                        elif phoneme == "·":
+                            description = "silence"
+
+                        print("<tr>", file=readme_out_file)
+                        print("<td>", phoneme_num, "</td>", file=readme_out_file)
+                        print("<td>", phoneme, "</td>", file=readme_out_file)
+                        print("<td>", description, "</td>", file=readme_out_file)
+                        print("</tr>", file=readme_out_file)
+
+                print("</table>", file=readme_out_file)
+
+            # Phonemizer
+            with open(voice_dir / "config.json", "r", encoding="utf-8") as config_file:
+                voice_config = json.load(config_file)
+
+            phonemizer = voice_config.get("phonemizer", "")
+            phonemizer_link = "#"
+
+            if phonemizer == "gruut":
+                phonemizer_link = "https://github.com/rhasspy/gruut/"
+            elif phonemizer == "espeak":
+                phonemizer_link = "https://github.com/espeak-ng/espeak-ng/"
+            elif phonemizer == "epitran":
+                phonemizer_link = "https://github.com/dmort27/epitran/"
+            elif phonemizer == "symbols":
+                phonemizer_link = "voices/{voice_key}/README.md#phonemes"
 
             # Load speaker names (for multi-speaker voices)
             speakers = []
@@ -99,7 +177,7 @@ def main():
             print(
                 f"""<td>{max(1, len(speakers))}</td>
     <td>{voice_version}</td>
-    <td>low</td>
+    <td><a href="{phonemizer_link}">{phonemizer}</a></td>
     <td><a href="voices/{voice_key}/LICENSE">View</a></td>
 </tr>"""
             )
