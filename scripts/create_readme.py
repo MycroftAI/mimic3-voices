@@ -21,7 +21,7 @@ from pathlib import Path
 
 import gruut_ipa
 
-from shared import LANG_NAMES
+from shared import FLAGS, LANG_NAMES
 
 _DIR = Path(__file__).parent
 _WAV_DIR = _DIR.parent / "phonemes"
@@ -37,6 +37,7 @@ def main():
         """<table>
 <thead>
 <tr>
+<th>&nbsp;</th>
 <th>Key</th>
 <th>Language</th>
 <th>Dataset</th>
@@ -195,8 +196,11 @@ def main():
             if isinstance(lang_name, tuple):
                 lang_name = f"{lang_name[0]} ({lang_name[1]})"
 
+            lang_flag = FLAGS.get(lang, "")
+
             print(
                 f"""<tr>
+<td>{lang_flag}</td>
 <td><a href="voices/{voice_key}"><tt>{voice_key}</tt></a></td>
 <td>{lang_name}</td>"""
             )
