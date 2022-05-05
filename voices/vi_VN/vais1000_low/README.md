@@ -81,82 +81,82 @@ See LICENSE file for license.
 <tr>
 <td> 14 </td>
 <td> a </td>
-<td> vowel open front unrounded [<a title="Audio sample for vowel open front unrounded " href="phonemes/open_front_unrounded_vowel.wav">Sample</a>] </td>
+<td> vowel open front unrounded [<a title="Audio sample for vowel open front unrounded " href="../../phonemes/open_front_unrounded_vowel.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 15 </td>
 <td> b </td>
-<td> consonant plosive bilabial voiced [<a title="Audio sample for consonant plosive bilabial voiced " href="phonemes/voiced_bilabial_plosive.wav">Sample</a>] </td>
+<td> consonant plosive bilabial voiced [<a title="Audio sample for consonant plosive bilabial voiced " href="../../phonemes/voiced_bilabial_plosive.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 16 </td>
 <td> c </td>
-<td> consonant plosive palatal unvoiced [<a title="Audio sample for consonant plosive palatal unvoiced " href="phonemes/voiceless_palatal_plosive.wav">Sample</a>] </td>
+<td> consonant plosive palatal unvoiced [<a title="Audio sample for consonant plosive palatal unvoiced " href="../../phonemes/voiceless_palatal_plosive.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 17 </td>
 <td> e </td>
-<td> vowel close-mid front unrounded [<a title="Audio sample for vowel close-mid front unrounded " href="phonemes/close-mid_front_unrounded_vowel.wav">Sample</a>] </td>
+<td> vowel close-mid front unrounded [<a title="Audio sample for vowel close-mid front unrounded " href="../../phonemes/close-mid_front_unrounded_vowel.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 18 </td>
 <td> f </td>
-<td> consonant fricative labio-dental unvoiced [<a title="Audio sample for consonant fricative labio-dental unvoiced " href="phonemes/voiceless_labiodental_fricative.wav">Sample</a>] </td>
+<td> consonant fricative labio-dental unvoiced [<a title="Audio sample for consonant fricative labio-dental unvoiced " href="../../phonemes/voiceless_labiodental_fricative.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 19 </td>
 <td> h </td>
-<td> consonant fricative glottal unvoiced [<a title="Audio sample for consonant fricative glottal unvoiced " href="phonemes/voiceless_glottal_fricative.wav">Sample</a>] </td>
+<td> consonant fricative glottal unvoiced [<a title="Audio sample for consonant fricative glottal unvoiced " href="../../phonemes/voiceless_glottal_fricative.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 20 </td>
 <td> i </td>
-<td> vowel close front unrounded [<a title="Audio sample for vowel close front unrounded " href="phonemes/close_front_unrounded_vowel.wav">Sample</a>] </td>
+<td> vowel close front unrounded [<a title="Audio sample for vowel close front unrounded " href="../../phonemes/close_front_unrounded_vowel.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 21 </td>
 <td> j </td>
-<td> consonant approximant palatal voiced [<a title="Audio sample for consonant approximant palatal voiced " href="phonemes/palatal_approximant.wav">Sample</a>] </td>
+<td> consonant approximant palatal voiced [<a title="Audio sample for consonant approximant palatal voiced " href="../../phonemes/palatal_approximant.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 22 </td>
 <td> k </td>
-<td> consonant plosive velar unvoiced [<a title="Audio sample for consonant plosive velar unvoiced " href="phonemes/voiceless_velar_plosive.wav">Sample</a>] </td>
+<td> consonant plosive velar unvoiced [<a title="Audio sample for consonant plosive velar unvoiced " href="../../phonemes/voiceless_velar_plosive.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 23 </td>
 <td> l </td>
-<td> consonant lateral-approximant alveolar voiced [<a title="Audio sample for consonant lateral-approximant alveolar voiced " href="phonemes/alveolar_lateral_approximant.wav">Sample</a>] </td>
+<td> consonant lateral-approximant alveolar voiced [<a title="Audio sample for consonant lateral-approximant alveolar voiced " href="../../phonemes/alveolar_lateral_approximant.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 24 </td>
 <td> m </td>
-<td> consonant nasal bilabial voiced [<a title="Audio sample for consonant nasal bilabial voiced " href="phonemes/bilabial_nasal.wav">Sample</a>] </td>
+<td> consonant nasal bilabial voiced [<a title="Audio sample for consonant nasal bilabial voiced " href="../../phonemes/bilabial_nasal.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 25 </td>
 <td> n </td>
-<td> consonant nasal alveolar voiced [<a title="Audio sample for consonant nasal alveolar voiced " href="phonemes/alveolar_nasal.wav">Sample</a>] </td>
+<td> consonant nasal alveolar voiced [<a title="Audio sample for consonant nasal alveolar voiced " href="../../phonemes/alveolar_nasal.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 26 </td>
 <td> o </td>
-<td> vowel close-mid back rounded [<a title="Audio sample for vowel close-mid back rounded " href="phonemes/close-mid_back_rounded_vowel.wav">Sample</a>] </td>
+<td> vowel close-mid back rounded [<a title="Audio sample for vowel close-mid back rounded " href="../../phonemes/close-mid_back_rounded_vowel.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 27 </td>
 <td> p </td>
-<td> consonant plosive bilabial unvoiced [<a title="Audio sample for consonant plosive bilabial unvoiced " href="phonemes/voiceless_bilabial_plosive.wav">Sample</a>] </td>
+<td> consonant plosive bilabial unvoiced [<a title="Audio sample for consonant plosive bilabial unvoiced " href="../../phonemes/voiceless_bilabial_plosive.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 28 </td>
 <td> s </td>
-<td> consonant fricative alveolar unvoiced [<a title="Audio sample for consonant fricative alveolar unvoiced " href="phonemes/voiceless_alveolar_fricative.wav">Sample</a>] </td>
+<td> consonant fricative alveolar unvoiced [<a title="Audio sample for consonant fricative alveolar unvoiced " href="../../phonemes/voiceless_alveolar_fricative.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 29 </td>
 <td> t </td>
-<td> consonant plosive alveolar unvoiced [<a title="Audio sample for consonant plosive alveolar unvoiced " href="phonemes/voiceless_alveolar_plosive.wav">Sample</a>] </td>
+<td> consonant plosive alveolar unvoiced [<a title="Audio sample for consonant plosive alveolar unvoiced " href="../../phonemes/voiceless_alveolar_plosive.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 30 </td>
@@ -166,47 +166,47 @@ See LICENSE file for license.
 <tr>
 <td> 31 </td>
 <td> u </td>
-<td> vowel close back rounded [<a title="Audio sample for vowel close back rounded " href="phonemes/close_back_rounded_vowel.wav">Sample</a>] </td>
+<td> vowel close back rounded [<a title="Audio sample for vowel close back rounded " href="../../phonemes/close_back_rounded_vowel.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 32 </td>
 <td> v </td>
-<td> consonant fricative labio-dental voiced [<a title="Audio sample for consonant fricative labio-dental voiced " href="phonemes/voiced_labiodental_fricative.wav">Sample</a>] </td>
+<td> consonant fricative labio-dental voiced [<a title="Audio sample for consonant fricative labio-dental voiced " href="../../phonemes/voiced_labiodental_fricative.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 33 </td>
 <td> w </td>
-<td> consonant approximant bilabial voiced [<a title="Audio sample for consonant approximant bilabial voiced " href="phonemes/voiced_bilabial_approximant.wav">Sample</a>] </td>
+<td> consonant approximant bilabial voiced [<a title="Audio sample for consonant approximant bilabial voiced " href="../../phonemes/voiced_bilabial_approximant.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 34 </td>
 <td> x </td>
-<td> consonant fricative velar unvoiced [<a title="Audio sample for consonant fricative velar unvoiced " href="phonemes/voiceless_velar_fricative.wav">Sample</a>] </td>
+<td> consonant fricative velar unvoiced [<a title="Audio sample for consonant fricative velar unvoiced " href="../../phonemes/voiceless_velar_fricative.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 35 </td>
 <td> y </td>
-<td> vowel close front rounded [<a title="Audio sample for vowel close front rounded " href="phonemes/close_front_rounded_vowel.wav">Sample</a>] </td>
+<td> vowel close front rounded [<a title="Audio sample for vowel close front rounded " href="../../phonemes/close_front_rounded_vowel.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 36 </td>
 <td> z </td>
-<td> consonant fricative alveolar voiced [<a title="Audio sample for consonant fricative alveolar voiced " href="phonemes/voiced_alveolar_fricative.wav">Sample</a>] </td>
+<td> consonant fricative alveolar voiced [<a title="Audio sample for consonant fricative alveolar voiced " href="../../phonemes/voiced_alveolar_fricative.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 37 </td>
 <td> æ </td>
-<td> vowel near-open front unrounded [<a title="Audio sample for vowel near-open front unrounded " href="phonemes/near-open_front_unrounded_vowel.wav">Sample</a>] </td>
+<td> vowel near-open front unrounded [<a title="Audio sample for vowel near-open front unrounded " href="../../phonemes/near-open_front_unrounded_vowel.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 38 </td>
 <td> ŋ </td>
-<td> consonant nasal velar voiced [<a title="Audio sample for consonant nasal velar voiced " href="phonemes/velar_nasal.wav">Sample</a>] </td>
+<td> consonant nasal velar voiced [<a title="Audio sample for consonant nasal velar voiced " href="../../phonemes/velar_nasal.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 39 </td>
 <td> ɔ </td>
-<td> vowel open-mid back rounded [<a title="Audio sample for vowel open-mid back rounded " href="phonemes/open-mid_back_rounded_vowel.wav">Sample</a>] </td>
+<td> vowel open-mid back rounded [<a title="Audio sample for vowel open-mid back rounded " href="../../phonemes/open-mid_back_rounded_vowel.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 40 </td>
@@ -226,52 +226,52 @@ See LICENSE file for license.
 <tr>
 <td> 43 </td>
 <td> ɛ </td>
-<td> vowel open-mid front unrounded [<a title="Audio sample for vowel open-mid front unrounded " href="phonemes/open-mid_front_unrounded_vowel.wav">Sample</a>] </td>
+<td> vowel open-mid front unrounded [<a title="Audio sample for vowel open-mid front unrounded " href="../../phonemes/open-mid_front_unrounded_vowel.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 44 </td>
 <td> ɜ </td>
-<td> vowel open-mid central unrounded [<a title="Audio sample for vowel open-mid central unrounded " href="phonemes/open-mid_central_unrounded_vowel.wav">Sample</a>] </td>
+<td> vowel open-mid central unrounded [<a title="Audio sample for vowel open-mid central unrounded " href="../../phonemes/open-mid_central_unrounded_vowel.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 45 </td>
 <td> ɡ </td>
-<td> consonant plosive velar voiced [<a title="Audio sample for consonant plosive velar voiced " href="phonemes/voiced_velar_plosive.wav">Sample</a>] </td>
+<td> consonant plosive velar voiced [<a title="Audio sample for consonant plosive velar voiced " href="../../phonemes/voiced_velar_plosive.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 46 </td>
 <td> ɣ </td>
-<td> consonant fricative velar voiced [<a title="Audio sample for consonant fricative velar voiced " href="phonemes/voiced_velar_fricative.wav">Sample</a>] </td>
+<td> consonant fricative velar voiced [<a title="Audio sample for consonant fricative velar voiced " href="../../phonemes/voiced_velar_fricative.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 47 </td>
 <td> ɪ </td>
-<td> vowel near-close near-front unrounded [<a title="Audio sample for vowel near-close near-front unrounded " href="phonemes/near-close_near-front_unrounded_vowel.wav">Sample</a>] </td>
+<td> vowel near-close near-front unrounded [<a title="Audio sample for vowel near-close near-front unrounded " href="../../phonemes/near-close_near-front_unrounded_vowel.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 48 </td>
 <td> ɲ </td>
-<td> consonant nasal palatal voiced [<a title="Audio sample for consonant nasal palatal voiced " href="phonemes/palatal_nasal.wav">Sample</a>] </td>
+<td> consonant nasal palatal voiced [<a title="Audio sample for consonant nasal palatal voiced " href="../../phonemes/palatal_nasal.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 49 </td>
 <td> ɹ </td>
-<td> consonant approximant alveolar voiced [<a title="Audio sample for consonant approximant alveolar voiced " href="phonemes/alveolar_approximant.wav">Sample</a>] </td>
+<td> consonant approximant alveolar voiced [<a title="Audio sample for consonant approximant alveolar voiced " href="../../phonemes/alveolar_approximant.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 50 </td>
 <td> ʂ </td>
-<td> consonant fricative retroflex unvoiced [<a title="Audio sample for consonant fricative retroflex unvoiced " href="phonemes/voiceless_retroflex_fricative.wav">Sample</a>] </td>
+<td> consonant fricative retroflex unvoiced [<a title="Audio sample for consonant fricative retroflex unvoiced " href="../../phonemes/voiceless_retroflex_fricative.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 51 </td>
 <td> ʃ </td>
-<td> consonant fricative post-alveolar unvoiced [<a title="Audio sample for consonant fricative post-alveolar unvoiced " href="phonemes/voiceless_postalveolar_fricative.wav">Sample</a>] </td>
+<td> consonant fricative post-alveolar unvoiced [<a title="Audio sample for consonant fricative post-alveolar unvoiced " href="../../phonemes/voiceless_postalveolar_fricative.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 52 </td>
 <td> ʊ </td>
-<td> vowel near-close near-back rounded [<a title="Audio sample for vowel near-close near-back rounded " href="phonemes/near-close_near-back_rounded_vowel.wav">Sample</a>] </td>
+<td> vowel near-close near-back rounded [<a title="Audio sample for vowel near-close near-back rounded " href="../../phonemes/near-close_near-back_rounded_vowel.wav">Sample</a>] </td>
 </tr>
 <tr>
 <td> 53 </td>
