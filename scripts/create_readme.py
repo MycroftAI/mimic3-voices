@@ -169,9 +169,9 @@ def main():
 
                                 if audio_path:
                                     if description:
-                                        description += "<br />"
+                                        description += " "
 
-                                    description += f'<audio controls preload="none" src="{audio_path}"></audio>'
+                                    description += f'[<a title="Audio sample for {description}" href="{audio_path}">Sample</a>]'
 
                         print("<tr>", file=readme_out_file)
                         print("<td>", phoneme_num, "</td>", file=readme_out_file)
