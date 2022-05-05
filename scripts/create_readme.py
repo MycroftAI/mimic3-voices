@@ -160,7 +160,7 @@ def main():
 
             print(
                 f"""<tr>
-<td><tt>{voice_key}</tt></td>
+<td><a href="voices/{voice_key}"><tt>{voice_key}</tt></a></td>
 <td>{lang_name}</td>"""
             )
 
