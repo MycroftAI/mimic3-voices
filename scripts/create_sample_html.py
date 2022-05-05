@@ -112,7 +112,7 @@ table tbody tr:nth-of-type(even) {
 
         lang_flag = FLAGS.get(language, "")
         if lang_flag:
-            lang_rest = lang_rest[:-1] + f"{lang_flag})"
+            lang_rest = lang_rest[:-1] + f", {lang_flag})"
 
         lang_texts[language] = (lang_name, lang_rest)
 
