@@ -144,7 +144,7 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
 <tr>
 <td>🇫🇮</td>
 <td><a href="voices/fi_FI/harri-tapani-ylilammi_low"><tt>fi_FI/harri-tapani-ylilammi_low</tt></a></td>
-<td>suomi (Finnish)</td>
+<td>Suomi (Finnish)</td>
 <td><a href="https://www.kaggle.com/bryanpark/finnish-single-speaker-speech-dataset">View</a></td>
 <td>1</td>
     <td><a href="https://github.com/espeak-ng/espeak-ng/">espeak</a></td>
@@ -182,9 +182,17 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
     <td><a href="https://github.com/espeak-ng/espeak-ng/">espeak</a></td>
 </tr>
 <tr>
+<td>🇳🇪</td>
+<td><a href="voices/ha_NE/openbible_low"><tt>ha_NE/openbible_low</tt></a></td>
+<td>Hausa</td>
+<td><a href="https://open.bible/">View</a></td>
+<td>1</td>
+    <td><a href="https://github.com/dmort27/epitran/">epitran</a></td>
+</tr>
+<tr>
 <td>🇭🇺</td>
 <td><a href="voices/hu_HU/diana-majlinger_low"><tt>hu_HU/diana-majlinger_low</tt></a></td>
-<td>magyar nyelv (Hungarian)</td>
+<td>Magyar Nyelv (Hungarian)</td>
 <td><a href="https://www.kaggle.com/bryanpark/hungarian-single-speaker-speech-dataset">View</a></td>
 <td>1</td>
     <td><a href="https://github.com/espeak-ng/espeak-ng/">espeak</a></td>
@@ -208,7 +216,7 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
 <tr>
 <td>🇮🇩</td>
 <td><a href="voices/jv_ID/google-gmu_low"><tt>jv_ID/google-gmu_low</tt></a></td>
-<td>basa Jawa (Javanese)</td>
+<td>Basa Jawa (Javanese)</td>
 <td><a href="http://www.openslr.org/41/">View</a></td>
 <td>39</td>
     <td><a href="https://github.com/dmort27/epitran/">epitran</a></td>
@@ -330,10 +338,10 @@ Voice models for the [Mimic 3](https://github.com/MycroftAI/mimic3) text to spee
 </tr>
 <tr>
 <td>🇳🇬</td>
-<td><a href="voices/yo/crowdsourced_low"><tt>yo/crowdsourced_low</tt></a></td>
+<td><a href="voices/yo/openbible_low"><tt>yo/openbible_low</tt></a></td>
 <td>Èdè Yorùbá (Yoruba)</td>
-<td><a href="https://www.openslr.org/86">View</a></td>
-<td>20</td>
+<td><a href="https://open.bible/">View</a></td>
+<td>1</td>
     <td><a href="https://github.com/dmort27/epitran/">epitran</a></td>
 </tr>
 </tbody>

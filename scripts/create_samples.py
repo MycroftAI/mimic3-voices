@@ -40,6 +40,16 @@ _TEST_SENTENCES = {
         van die reënboog staan reg teenoor die son en die boog het 'n straal van
         ongeveer 42°. Die kleure van die reënboog is, van buite na binne, rooi,
         oranje, geel, groen, blou, indigo en violet.""",
+    "da": """En regnbue er et optisk fænomen; en "lyseffekt", som skabes på
+        himlen, når lys fra Solen rammer små vanddråber i luften, f.eks.
+        faldende regn. Sådanne svævende vanddråber har facon omtrent som en
+        kugle – jo mindre de er, desto mere perfekt kugleform har de. Disse
+        kuglerunde dråber bryder, eller "afbøjer" lyset på samme måde som et
+        optisk prisme ved en proces, der kaldes refraktion. Og derudover opfører
+        indersiden af dråbernes overflader sig til en vis grad som små spejle,
+        (et fænomen der kaldes for intern refleksion), der kaster lyset tilbage
+        i nogenlunde den retning, det kom fra – det er derfor, man altid ser
+        regnbuer i retningen direkte væk fra solen.""",
     "de": """Der Regenbogen ist ein atmosphärisch-optisches Phänomen, das als
         kreisbogenförmiges farbiges Lichtband in einer von der Sonne
         beschienenen Regenwand oder -wolke wahrgenommen wird. Sein radialer
@@ -97,6 +107,14 @@ _TEST_SENTENCES = {
         પીળો રંગ, પછી નારંગી રંગ તેમ જ છેલ્લે લાલ રંગ એમ સાત રંગો જોવા મળે છે. ગોળાકાર
         હોવાથી તે ધનુષ જેવું દેખાય છે અને આ ગોળાકાર આકાર પૃથ્વીના ગોળ હોવાને કારણે સર્જાય
         છે.""",
+    "ha": """Rainbow wani muhimmin haske ne da yake bayyana a cikin giza-gizai a
+        sararin samaniya wanda zaka ga yayi lankwasa kamar misalin baka ya
+        dangana daga kusurwa zuwa kusurwa. A turance ana kiransa Rainbow. Shi dai
+        wannan abu yana dauke da kaloli daban-daban har kusan guda bakwai, mafi
+        akasari yana bayyana ne lokacin da hadari ya taso, cikin ikon Allah da
+        zarar bakan gizo ya bayyana, nan take zaka ga hadarin ya lafa ma'ana zai
+        washe zuwa wani dan lokaci daga nan kuma sai Ruwa ya kece. Amma mafi
+        akasari wani lokacin sam baza ma ayi ruwan ba.""",
     "hu": """A szivárvány olyan optikai jelenség, melyet eső- vagy páracseppek
         okoznak, mikor a fény prizmaszerűen megtörik rajtuk és színeire bomlik,
         kialakul a színképe, más néven spektruma. Az ív külső része vörös, míg a
@@ -285,7 +303,7 @@ def main():
                 voice = key
                 sample_path = voice_dir / "sample.wav"
 
-            if sample_path.is_file():
+            if sample_path.is_file() and (sample_path.stat().st_size > 0):
                 # Skip existing files
                 continue
 
