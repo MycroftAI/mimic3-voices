@@ -127,6 +127,9 @@
     },
     "text_language": "es_ES",
     "phonemizer": "gruut",
+    "inference": {
+        "auto_append_text": "."
+    },
     "datasets": [
         {
             "name": "carlfm",

@@ -127,6 +127,9 @@
     },
     "text_language": "hu",
     "phonemizer": "espeak",
+    "inference": {
+        "auto_append_text": "."
+    },
     "datasets": [
         {
             "name": "diana_majlinger",

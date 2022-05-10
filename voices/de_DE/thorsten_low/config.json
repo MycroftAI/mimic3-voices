@@ -127,6 +127,9 @@
     },
     "text_language": "de_DE",
     "phonemizer": "gruut",
+    "inference": {
+        "auto_append_text": "."
+    },
     "datasets": [
         {
             "name": "thorsten_neutral",

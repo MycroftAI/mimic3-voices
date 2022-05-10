@@ -127,6 +127,9 @@
     },
     "text_language": "sw",
     "phonemizer": "gruut",
+    "inference": {
+        "auto_append_text": "."
+    },
     "datasets": [
         {
             "name": "lanfrica",

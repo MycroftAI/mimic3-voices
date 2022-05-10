@@ -127,6 +127,9 @@
     },
     "text_language": "en_US",
     "phonemizer": "gruut",
+    "inference": {
+        "auto_append_text": "."
+    },
     "datasets": [
         {
             "name": "ljspeech",

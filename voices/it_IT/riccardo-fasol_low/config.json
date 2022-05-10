@@ -127,6 +127,9 @@
     },
     "text_language": "it_IT",
     "phonemizer": "gruut",
+    "inference": {
+        "auto_append_text": "."
+    },
     "datasets": [
         {
             "name": "riccardo_fasol",

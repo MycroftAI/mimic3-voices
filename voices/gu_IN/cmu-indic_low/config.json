@@ -146,7 +146,8 @@
         "noise_scale": 0.333,
         "noise_w": 0.333,
         "minor_break_ms": 100,
-        "major_break_ms": 250
+        "major_break_ms": 250,
+        "auto_append_text": "."
     },
     "version": 1,
     "git_commit": ""

@@ -127,6 +127,9 @@
     },
     "text_language": "fi",
     "phonemizer": "espeak",
+    "inference": {
+        "auto_append_text": "."
+    },
     "datasets": [
         {
             "name": "harri_tapani_ylilammi",

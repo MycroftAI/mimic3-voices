@@ -144,7 +144,8 @@
     "inference": {
         "length_scale": 1.0,
         "noise_scale": 0.667,
-        "noise_w": 0.8
+        "noise_w": 0.8,
+        "auto_append_text": "."
     },
     "version": 1,
     "git_commit": ""

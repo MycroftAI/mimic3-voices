@@ -130,6 +130,9 @@
     },
     "text_language": "fr_FR",
     "phonemizer": "gruut",
+    "inference": {
+        "auto_append_text": "."
+    },
     "datasets": [
         {
             "name": "tijho_baudelaire",

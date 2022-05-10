@@ -118,8 +118,8 @@
         "tone_before": false,
         "phoneme_map": null,
         "auto_bos_eos": true,
-        "minor_break": "|",
-        "major_break": "\u2016"
+        "minor_break": ",",
+        "major_break": "."
     },
     "text_aligner": {
         "aligner": null,
@@ -127,6 +127,9 @@
     },
     "text_language": "ko",
     "phonemizer": "espeak",
+    "inference": {
+        "auto_append_text": "."
+    },
     "datasets": [
         {
             "name": "kss",
