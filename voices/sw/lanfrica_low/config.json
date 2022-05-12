@@ -128,6 +128,7 @@
     "text_language": "sw",
     "phonemizer": "gruut",
     "inference": {
+        "length_scale": 1.2,
         "auto_append_text": "."
     },
     "datasets": [
